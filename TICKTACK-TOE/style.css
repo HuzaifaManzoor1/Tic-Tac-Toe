@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+   background-color: #548687;
+   text-align: center; 
+}
+
+/* .container {
+    height: 70vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+}   */
+
+.game {
+    height: 250px;
+    width: 250px;
+    /* background-color: black;  */
+    display: flex;
+    flex-wrap: wrap; /*display flex or flex wrap se ye ho raha ai ke buttons move nhi kar rhi hain*/
+    gap: 1.5vmin;
+    margin-left: 40%;
+    margin-top: 5%; 
+}
+
+.box {
+    height: 75px;
+    width: 75px;
+    border-radius: 1rem;
+    border: none;
+    font-size: 25px;
+    color: red;
+    background-color: azure;
+}
+
+#rst {
+    height: 43px;
+    width:100px;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 20px;
+    background-color: darkolivegreen;
+
+}
+
+#newBtn {
+    height: 43px;
+    width:100px;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 20px;
+    background-color: darkolivegreen;
+}
+
+#msg {
+    color: antiquewhite;
+    font-size: large;
+}
+
+.msg-container {
+    height: 20vmin;
+}
+
+.hide{
+    display: none;
+}
